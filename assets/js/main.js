@@ -13,7 +13,11 @@ let fizzEl
 for (let index=1; index <= 100 ; index++){
   
 
-    if (index % 3==0){  
+    if (index % 3==0 && index % 5==0){
+        console.log("fizzbuzz");
+        
+    }
+    else if (index % 3==0){  
         console.log("fizz");
     }
 
@@ -21,9 +25,7 @@ for (let index=1; index <= 100 ; index++){
         console.log("buzz");
     }
 
-    else if (index % 3==0 && index % 5==0){
-        console.log("fizzbuzz");
-    }
+
 
     else (index)
     console.log(index)
