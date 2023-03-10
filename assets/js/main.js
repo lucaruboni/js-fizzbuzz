@@ -19,26 +19,26 @@ const fizzbuzz = String("fizzbuzz")
 
 
 for (let index=1; index <= 100 ; index++){
-    let listElement = `<li></li>`
+    let listElement = `<li class="li_el py-2 px-3 rounded-3"></li>`
 
     if (index % 3==0 && index % 5==0){
         console.log(fizzbuzz)
-        listElement = `<li>${fizzbuzz}</li>`;
+        listElement = `<li class="li_el p-2 rounded-3 bg-light">${fizzbuzz}</li>`;
     }
 
     else if (index % 3==0){  
         console.log(fizz);
-        listElement = `<li>${fizz}</li>`;
+        listElement = `<li class="li_el p-2 rounded-3 bg-dark text-light">${fizz}</li>`;
     }
 
     else if (index % 5==0){
         console.log(buzz);
-        listElement = `<li>${buzz}</li>`;
+        listElement = `<li class="li_el p-2 rounded-3 bg-warning">${buzz}</li>`;
     }
 
     else {
     console.log(index)
-    listElement = `<li>${index}</li>`;
+    listElement = `<li class="li_el p-2 rounded-3">${index}</li>`;
     }
 
 

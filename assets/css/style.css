@@ -1,0 +1,23 @@
+main{
+    background-image: url(../img/forest-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+h1{
+    font-family: 'Bungee Spice', cursive;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    background-color: coral;
+    margin: 1rem;
+    width: 80px;
+    aspect-ratio: 1 / 1;
+    line-height: 55px;
+}
